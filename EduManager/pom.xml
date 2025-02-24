@@ -5,9 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>EduManage</artifactId>
+    <artifactId>EduManager</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>EduManage</name>
+    <name>EduManager</name>
     <packaging>war</packaging>
 
     <properties>
@@ -30,6 +30,15 @@
             <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
+
+        <!-- MySQL Connector -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.27</version>
+        </dependency>
+
+
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-engine</artifactId>
